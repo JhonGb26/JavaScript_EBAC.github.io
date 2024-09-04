@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#table">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section  id="hero"> 
+        <div class="container">
+            <h2>Olá, Sou Jhonatas Santos</h2>
+            <p>Estudante de Javascript, cursando EBAC</p>
+            <a href="#table" class="btn">Veja meus Trabalhos </a>
+        </div>
+    </section>
+   
+    <section id="about">
+        <div class="container">
+                <h2>Sobre mim</h2>
+                <p>Sou um estudante da area de tecnologia que está aprendendo <strong>Javascript</strong> e a base do front-end. E quero aprender cada vez mais sobre essa linguagem.</p>
+        </div>
+    </section>
+
+    <section id="table">
+        <div class="container">
+            <h2>Meus trabalhos</h2>
+            <table>
+            <tbody>
+                <tr>
+                    <th class="table-row">
+                        <img src="./img/html.png" alt="Logo-html" class="img">
+                        <div>
+                            <h3>Criando sites com HTML</h3>
+                            <p>Aqui uso a base do HTML para fazer o corpo de sites</p>
+                        </div>
+                    </th>
+                    
+                </tr>
+                <tr>
+                    <th class="table-row">
+                        <img src="./img/css.png" alt="Logo-css" class="img">
+                        <div>
+                            <h3>Estilizando sites com CSS</h3>
+                            <p>Aqui uso a base do CSS para estilizar meus sites</p>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="table-row">
+                        <img src="./img/javascript.png" alt="Logo-javascript" class="img">
+                        <div>
+                            <h3>Criando interações com Javascript</h3>
+                            <p>Aqui uso a base do Javascript para fazer sites mais dinamicos com interações melhores.</p>
+                        </div>
+                    </th>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+    </section>
+   
+
+    <div id="contact">
+        <h2>Contato:</h2>
+        <form action="#" mathod="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome"  name="nome" required><br><br>
+    
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required><br><br>
+    
+            <label for="mensagem">Recado:</label>
+            <textarea name="mensagem" id="mensagem" rows="4" cols="50" required></textarea><br><br>
+    
+            <input type="submit" value="Enviar sua sugestão">
+            <input type="reset" value="limpar">
+        </form>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Jhonatas Santos. Projeto Portfólio</p>
+        </div>
+    </footer>
+</body>
+</html>
